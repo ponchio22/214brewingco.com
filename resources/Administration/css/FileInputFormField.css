@@ -1,0 +1,17 @@
+.fileInputFormFieldContainer[has-value="1"] .uploadFileSelector,
+.fileInputFormFieldContainer[has-value="0"] .hasValueFileValue,
+.fileInputFormFieldContainer[has-value="0"] img,
+.fileInputFormFieldContainer[has-value="0"] .hasValueLink,
+.fileInputFormFieldContainer[has-value="0"] .changeButton {
+    display:none;
+}
+.fileInputFormFieldContainer[has-value="1"] .uploadFileSelectorLabel {
+    display:block;
+}
+.fileInputFormFieldContainer img.img-thumbnail {
+    cursor: pointer;
+    cursor: hand;
+}
+.fileInputFormFieldContainer img.image {
+    border-radius: 5px 5px 0px 0px;
+}

@@ -1,0 +1,7 @@
+mysql_config:
+    path: /mysql/config
+    defaults: { _controller: Ima:Controller:ImaController:mysqlConfig }
+    
+project_data_config:
+    path: /project/config
+    defaults: { _controller: Ima:Controller:ImaController:projectConfig }

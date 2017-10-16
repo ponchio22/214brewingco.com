@@ -1,0 +1,18 @@
+.company_brand img {
+    max-width:100px; 
+    margin-top: -11px;
+}
+
+body {
+    min-height: 200px;
+    padding-top: 30px;
+}
+
+.alert ul {
+    padding:0px;
+    list-style: none;
+}
+
+textarea {
+    resize:none;
+}
